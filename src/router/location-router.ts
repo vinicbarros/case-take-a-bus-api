@@ -1,7 +1,8 @@
+import { nearbyBusStation } from "@/controller";
 import { Router } from "express";
 
 const locationRouter = Router();
 
-locationRouter.get("/");
+locationRouter.post("/", nearbyBusStation);
 
 export { locationRouter };
