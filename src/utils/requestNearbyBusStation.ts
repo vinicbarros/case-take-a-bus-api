@@ -8,7 +8,7 @@ export async function requestNearbyBusStation({
 }: ILocationParams): Promise<ResultNearbyStationType[]> {
   const url = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?";
 
-  const searchUrl = `${url}location=${latitude},${longitude}&radius=500&keyboard=bus+station&key=${process.env.GOOGLE_API_KEY}`;
+  const searchUrl = `${url}location=${latitude},${longitude}&radius=600&keyword=bus+station&key=${process.env.GOOGLE_API_KEY}`;
 
   const result = await axios.get(searchUrl);
 
