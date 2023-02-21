@@ -1,6 +1,6 @@
 export interface ILocationParams {
-  latitude: string;
-  longitude: string;
+  latitude: number;
+  longitude: number;
 }
 
 export type ResultNearbyStationType = {
