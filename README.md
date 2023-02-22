@@ -17,7 +17,7 @@ OBS: Para rodar esse projeto localmente, você **PRECISA** de uma chave api do g
 (PLACES API), e para isso, é necessário uma API KEY do google. 
 <a target="_blank" href="https://maplink.global/blog/como-obter-chave-api-google-maps/">Siga este tutorial para criar uma Chave API do Google.</a>
 
-Recomendo apenas utilizar o deploy da API, disponibilizado no repositório completo da aplicação.
+Recomendo apenas utilizar o deploy da API, disponibilizado no repositório completo da aplicação. <a href="https://github.com/vinicbarros/case-take-a-bus">Confira aqui</a>.
 
 <br/>
 
