@@ -1,4 +1,7 @@
-# Case Take a Bus API
+<div align="center"><img src="https://i.imgur.com/6d15hEc.png"></img></div>
+<hr>
+<h1 align=center>Case Take a Bus API</h1>
+
 Esse projeto é parte de um processo seletivo da Take a Bus para a vaga de Full Stack Engineer.
 
 O objetivo dessa case era criar uma aplicação em React Native contendo um mapa, sem nenhuma outra informação, apenas com um botão switch
