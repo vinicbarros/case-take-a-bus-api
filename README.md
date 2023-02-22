@@ -41,7 +41,7 @@ Recomendo apenas utilizar o deploy da API, disponibilizado no repositório compl
 
 4. Crie um arquivo chamado `.env` na pasta raiz do projeto (onde fica o `package.json` e o `.env.example`)
 
-6. Popule o `.env` de acordo com o `.env.example`
+5. Popule o `.env` de acordo com o `.env.example`
 
 ```bash
   PORT= por padrão, a porta é 4000, mas fique à vontade para colocar qual quiser
