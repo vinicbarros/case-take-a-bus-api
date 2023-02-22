@@ -55,7 +55,6 @@ Recomendo apenas utilizar o deploy da API, disponibilizado no repositório compl
 ```
 
 ## Documentação da API:
-<hr>
 
 ### Retorna todos os pontos de ônibus próximos a localização do usuário
 
