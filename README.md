@@ -30,7 +30,7 @@ Recomendo apenas utilizar o deploy da API, disponibilizado no repositório compl
 2. Vá para o diretório do projeto
 
 ```bash
-  cd Pitchau-Back
+  cd case-take-a-bus-api
 ```
 
 3. Instale as dependências
