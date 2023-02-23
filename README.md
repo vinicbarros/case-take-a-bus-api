@@ -16,7 +16,7 @@ dos pontos de ônibus próximos
 ## Funcionalidades da API
 - [x] Retorna os pontos de ônibus mais próximos do usuário/dispositivo
 
-Para pegar os dados dos pontos de ônibus mais próximos do usuário, usei uma api chamada Places API do Google Cloud Platform.
+Para pegar os dados dos pontos de ônibus mais próximos do usuário, usei uma api chamada Places API do Google Cloud Platform. Especificamente, utilizei uma das solicitações da API, a **Nearby Search**: <a href="https://developers.google.com/maps/documentation/places/web-service/search-nearby?hl=en">Confira a documentação por aqui.</a>
 
 ### Como rodar a API
 <hr>
