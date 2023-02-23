@@ -13,6 +13,11 @@ que controla a visualização de pontos de ônibus próximos a localização atu
 dos pontos de ônibus próximos
 - [x] Visualizar os pontos de ônibus mais próximos
 
+## Funcionalidades da API
+- [x] Retorna os pontos de ônibus mais próximos do usuário/dispositivo
+
+Para pegar os dados dos pontos de ônibus mais próximos do usuário, usei uma api chamada Places API do Google Cloud Platform.
+
 ### Como rodar a API
 <hr>
 
@@ -139,3 +144,4 @@ Resposta:
 - [x] Jest
 - [x] Eslint e Prettier
 - [x] Joi
+- [x] Places API (Google Cloud Platform)
