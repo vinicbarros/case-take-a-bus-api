@@ -8,12 +8,13 @@ export async function requestNearbyBusStation({
 }: ILocationParams): Promise<ResultNearbyStationType[]> {
   const url = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?";
 
-  const searchUrl = `${url}location=${latitude},${longitude}&radius=600&keyword=bus+station&key=${process.env.GOOGLE_API_KEY}`;
+  const searchUrl = `${url}location=${latitude},${longitude}&radius=600&keyword=transit+bus&key=${process.env.GOOGLE_API_KEY}`;
 
   const result = await axios.get(searchUrl);
 
   if (result.data.status === "INVALID_REQUEST") {
     throw badRequestError();
   }
+  console.log(result.data.results.length);
   return result.data.results as ResultNearbyStationType[];
 }
